@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700);
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background color: white;
+}
+
+h1 {
+	font-family:'Playfair Display', serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.nav{
+	text-align: center;
+	margin: 1em 0;
+	font-size: 5.5px;
+	padding-top: 20px;
+	letter-spacing: 1.5px;
+}
+
+.nav>span>a {
+	font-size: 2.5em;
+	padding: 0 1em 0 1em;
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	text-align: center;
+}
+
+.nav>span>a:hover {
+	background: black;
+	color: white;
+}
+
+.aboutme {
+	padding: 1em;
+	margin: 1em;
+	border: 1px solid black;
+}
+
+.aboutme>p {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	max-width: 45ex;
+	line-height: 1.6em;
+}
+
+/* phones */
+@media (min-width: 400px;) {
+
+}
+/* tablets */
+@media (min-width: 400px;) and (max-width: 800;) {
+	
+}
+/* desktop */
+@media (min-width: 800px;) {
+	
+}
